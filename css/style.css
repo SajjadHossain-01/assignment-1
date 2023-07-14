@@ -40,7 +40,7 @@ nav {
 
 /* banner section */
 .banner-section>div {
-    background-image: url(/img/banner.jpg);
+    background-image: url(img/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-repeat: no-repeat;
