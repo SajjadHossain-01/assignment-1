@@ -1,0 +1,136 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav bar section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 900;
+    font-size: 45px;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    color: #777777;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.nav-list>li {
+    list-style: none;
+    margin-left: 100px;
+}
+
+.nav-button {
+    font-weight: 600;
+    font-size: 25px;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    padding: 25px 25px;
+    color: #289BDE;
+}
+
+/* banner section */
+.banner-section>div {
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.banner-text {
+    text-align: center;
+    padding: 200px 350px;
+}
+
+.banner-title {
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.banner-discription {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.banner-button {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+/* course section  */
+.Courses-section {
+    margin-top: 140px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.course-section-text {
+    text-align: center;
+}
+
+.course-section-title {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.course-section-discription {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.course-detial {
+    margin: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses {
+    justify-content: space-between;
+}
+
+.courses-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.courses-about {
+    margin-top: 30px;
+    border: 2px solid #E8E8E8;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 100px;
+}
+
+.courses-about-text {
+    padding-left: 15px;
+}
+
+.courses-about-title {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.courses-about-discription {
+    font-weight: 400;
+    font-size: 20px;
+    color: #777777;
+}
