@@ -39,13 +39,14 @@ nav {
 }
 
 /* banner section */
-.banner-section>div {
-    background-image: url(img/banner.jpg);
+.banner-section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.3)), url(../img/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     margin-left: 140px;
     margin-right: 140px;
+    background-color: #777777;
 }
 
 .banner-text {
