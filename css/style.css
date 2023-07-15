@@ -101,7 +101,7 @@ nav {
 }
 
 .courses {
-    justify-content: space-between;
+    padding-right: 3%;
 }
 
 .courses-image {
@@ -115,7 +115,7 @@ nav {
     border: 2px solid #E8E8E8;
     border-radius: 5px;
     display: flex;
-    margin-right: 100px;
+
 }
 
 .courses-about-text {
@@ -185,12 +185,34 @@ nav {
 }
 
 .join-button {
-    border-radius: 5px;
+    border-radius: 10px;
     border: solid #289BDE;
-    padding: 10px 15px;
+    padding: 15px 25px;
     color: #289BDE;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
+}
+
+/* successful student section */
+.students {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.student-button {
+    text-align: center;
+}
+
+.student-title {
+    margin-top: 10%;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.student-discription {
+    font-size: 25px;
+    font-weight: 400;
 }
 
 /* footer section */
